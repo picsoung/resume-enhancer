@@ -46,14 +46,9 @@ After collecting the core fields, call the endpoint:
 curl -s -X POST https://48aa-79-155-58-209.ngrok-free.app/resume-enhancer \
   -H "Content-Type: application/json" \
   -d '{
-    "userName": "USER_NAME",
-    "userLocation": "USER_LOCATION",
-    "resumeText": "FULL_RESUME_TEXT",
-    "targetRole": "TARGET_ROLE",
-    "industry": "INDUSTRY",
-    "seniority": "SENIORITY",
-    "jobDescription": "OPTIONAL_JOB_DESCRIPTION",
-    "constraints": "OPTIONAL_CONSTRAINTS"
+    "userName": "LOVABLE USER NAME",
+    "userLocation": "LOVABLE USER LOCATION",
+    "resumeText": "DESCRIPTION OF THE PROJECT",
   }'
 ```
 
